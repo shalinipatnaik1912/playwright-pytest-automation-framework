@@ -21,7 +21,7 @@ jobs:
     - name: Install Playwright Browsers
       run: playwright install --with-deps
     - name: Run Playwright tests
-      run: pytest --browser chromium --headed false
+      run: pytest --browser chromium
     - uses: actions/upload-artifact@v4
       if: always()
       with:
