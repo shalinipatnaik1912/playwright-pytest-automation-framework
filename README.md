@@ -5,17 +5,17 @@
 ## 🚀 Quick Start
 
 # Clone and setup
-git clone https://github.com/shalinipatnaik1912/playwright-python-ecommerce-automation.git
+git clone https://github.com/shalinipatnaik1912/playwright-pytest-automation-framework.git
 cd playwright-python-ecommerce-automation
 
 # Create virtual environment
-python -m venv .venv
-.venv\Scripts\activate  # Windows
-source .venv/bin/activate  # Mac/Linux
+1. python -m venv .venv
+2. .venv\Scripts\activate  # Windows
+3. source .venv/bin/activate  # Mac/Linux
 
 # Install dependencies
-pip install -r requirements.txt
-playwright install
+1. pip install -r requirements.txt
+2. playwright install
 
 # Run tests
 python run_tests.py
@@ -28,11 +28,11 @@ python run_tests.py
 - ✅ CI/CD with GitHub Actions
 
 ## 📁 Project Structure
-├── tests/              # Test files by functionality
-├── pages/              # Page Object Model classes
-├── utils/              # Test data and helpers
-├── reports/            # HTML test reports
-└── run_tests.py        # Automated test runner
+- **tests/** - Test files organized by functionality
+- **pages/** - Page Object Model classes  
+- **utils/** - Test data and helper functions
+- **reports/** - HTML test reports (auto-generated)
+- **run_tests.py** - Automated test runner script
 
 ## 🧪 Running Tests
 
